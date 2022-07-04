@@ -613,7 +613,7 @@ Total : ${_registered.length} User
 let btn = [{
 urlButton: {
 displayText: "Group Bot",
-url: "https://www.whatsapp.com/otp/copy/https://chat.whatsapp.com/FLWmjhrhb3nCg1OmoAxQjC",
+url: "https://chat.whatsapp.com/FLWmjhrhb3nCg1OmoAxQjC",
 }
 },
 { 
