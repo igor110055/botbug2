@@ -1,21 +1,21 @@
 const { modul } = require('../Edit/module');
 const { chalk, fs, proces } = modul;
 
-global.ownerNumber = ["62881036690566@s.whatsapp.net"]
-global.namabotnya = 'BloodSword'
-global.namaownernya = 'BloodSword'
-global.packname = '\n\n\n\n\n\n\n\n\n\n© BloodSword||+62🇲🇨\nI`m From Indonesia\n\n\n\n\n\n\n\n\n\n'
-global.author = '\n\n\n\n\n\n\n\n\n\nWa : 0881-0366-90566\nIG : demo_ngki\n\n\n\n\n\n\n\n\n\n'
+global.ownerNumber = ["6285791677204@s.whatsapp.net"]
+global.namabotnya = 'FauzyBOT - MD'
+global.namaownernya = 'Fauzy-XD'
+global.packname = '\n\n\n\n\n\n\n\n\n\n© KirBotz||+62🇲🇨\nI`m From Indonesia\n\n\n\n\n\n\n\n\n\n'
+global.author = '\n\n\n\n\n\n\n\n\n\nWa : 0877-0504-8235\nYT : KirBotz×\n\n\n\n\n\n\n\n\n\n'
 global.sessionName = 'kirbotz'
 global.lolkey = 'Atakbotz'
 global.dapkey = 'Kirbotz123'
 global.kirkey = 'KirBotz'
-global.email = 'xnxx@gmail.com'
-global.group = 'https://bit.ly/kepoanjing'
-global.youtube = 'https://bit.ly/kepoanjing'
-global.website = 'https://bit.ly/kepoanjing'
-global.github = 'https://bit.ly/kepoanjing'
-global.noown = 'https://wa.me/62881036690566'
+global.email = 'angelxruzz@gmail.com'
+global.group = 'https://chat.whatsapp.com/FLWmjhrhb3nCg1OmoAxQjC'
+global.youtube = 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw'
+global.website = 'https://www.instagram.com/fauzitio_91/'
+global.github = 'https://github.com/FauziTioX'
+global.noown = 'https://wa.me/6285791677204'
 global.region = 'I`m From Indonesia'
 global.prefa = ['','!','.','#','-','•']
 global.api = 
@@ -30,7 +30,7 @@ global.api =
     error: '```Mungkin Lagi Error Kak Harap Lapor Owner Biar Langsung Di Benerin🙏```',
     wait: '```Waittt...```',
     ban: '_Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya_',
-    verif: '_Maaf Kak Kakak Belum Jadi User BloodSword Silahkan Register Terlebih Dahulu Click Di Bawah_'
+    verif: '_Maaf Kak Kakak Belum Jadi User KirBotz Silahkan Register Terlebih Dahulu Click Di Bawah_'
 }
 
 global.thumb = fs.readFileSync('./command/Image/thumb.jpg')
