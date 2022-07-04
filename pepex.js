@@ -14,7 +14,7 @@ const { color, bgcolor } = require('./command/Lib/color')
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./command/Lib/exif')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./command/Lib/myfunc')
 
-const Store = require("./command/Lib/Store.js")
+const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
 async function lordKirStart() {
     let { version, isLatest } = await fetchLatestBaileysVersion()
@@ -25,8 +25,6 @@ async function lordKirStart() {
         auth: state,
         version
     })
-    
-const store = Store.bind(sock)
     
 console.log(color(figlet.textSync('MD', {
 font: 'Standard', 
