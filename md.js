@@ -589,8 +589,8 @@ $ [ EXE ]
 ☻${prefix}bugfc
 ☻${prefix}sendbugcatalogpc 6285791677204
 ☻${prefix}bugpc2 6285791677204|9|9
-☻${prefix}sendbug 628384681919
-☻${prefix}bugpc 628384681919|9|9s
+☻${prefix}sendbug 6285791677204
+☻${prefix}bugpc 6285791677204|9|9s
 ☻${prefix}buggc 97455446178-1461236988@g.us|9|9s
 
 */Other*
@@ -611,7 +611,7 @@ $ [ EXE ]
 
 */Stalker*
 ☻${prefix}ffstalk 1798408813
-☻${prefix}ghstalk FαυȥყRêålz`𐁘zMD
+☻${prefix}ghstalk fauzitio_91
 ☻${prefix}igstalk frmnkalera
 ☻${prefix}npmstalk @adiwajshing/baileys
 
