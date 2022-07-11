@@ -228,8 +228,8 @@ const rkrk = await reSize(tytyd, 200, 200)
         "mediaType": 2, 
         "thumbnail": ppnyauser,
         "previewType": "VIDEO",
-        "mediaUrl": 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw',
-        "sourceUrl": 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw'}}},
+        "mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
+        "sourceUrl": 'https://youtu.be/ZXj-axRW_Ew'}}},
         { quoted: m })
         }
         
@@ -256,7 +256,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz`𐁘',
+message: 'FαυȥყRêålz',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -272,7 +272,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `FαυȥყRêålz``, 
+"caption": `FαυȥყRêålz`, 
 "jpegThumbnail": ppnyauser
 }
 }
@@ -289,7 +289,7 @@ return Math.floor(Math.random() * min) + 1
 }
 
 function monospace(string) {
-return 
+return '```' + string + '```'
 }
 
 async function post(url, formdata = {}, cookies) {
@@ -378,7 +378,7 @@ async function replyReg(teks) {
 const buttonsDefault = [{ quickReplyButton: { displayText: ` ꪶ VERIFY ꫂ `, id: `${prefix}verify` } }]                 
 const buttonMessage = { 
 text: teks, 
-footer: "Creator Fauzi ꪶ𖣂ꫂ", 
+footer: "Creator FαυȥყRêålz ꪶ𖣂ꫂ", 
 templateButtons: buttonsDefault, 
 image: {url: ppnyauser}                                   
 }
@@ -414,13 +414,13 @@ const botzkir = "6285791677204@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya FαυȥყBOTZ - MD`𐁘 Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya FαυȥყBOTZ - MD Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttoons = [
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
 ]
 let buttonMessaage = {
 document: ktedh, 
-fileName: `Bot By FαυȥყRêålz`𐁘`, 
+fileName: `Bot By FαυȥყRêålz`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: ktedh,
 caption: mbc,
@@ -452,7 +452,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz`𐁘',
+message: 'FαυȥყRêålz',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -498,7 +498,7 @@ break
 case 'ghstalk':{
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-if (!q) return reply(`Contoh ${prefix+command} FαυȥყBOTZ - MD`)
+if (!q) return reply(`Contoh ${prefix+command} FαυȥყRêålzzMD`)
 hw = await fetchJson(`https://api.github.com/users/${q}`)
 sock.sendMessage(m.chat, { image: { url: hw.avatar_url }, caption: 
 `*/ Stalking Github \\*
@@ -573,136 +573,136 @@ $ [ EXE ]
 > [ EVAL ]
 < [ EVAL2 ]
 => [ ASYNC ]
-☻${prefix}public
-☻${prefix}self
-☻${prefix}out
-☻${prefix}setppbot 'panjang'
-☻${prefix}ban add 628××××××
-☻${prefix}ban del 628××××××
-☻${prefix}addowner 628×××××
-☻${prefix}delowner 628×××××
-☻${prefix}listban
-☻${prefix}getcase
-☻${prefix}bcall
-☻${prefix}join
-☻${prefix}creategc
-☻${prefix}bugfc
-☻${prefix}sendbugcatalogpc 6285791677204
-☻${prefix}bugpc2 6285791677204|9|9
-☻${prefix}sendbug 6285791677204
-☻${prefix}bugpc 6285791677204|9|9s
-☻${prefix}buggc 97455446178-1461236988@g.us|9|9s
+☻{prefix}public
+☻{prefix}self
+☻{prefix}out
+☻{prefix}setppbot 'panjang'
+☻{prefix}ban add 628××××××
+☻{prefix}ban del 628××××××
+☻{prefix}addowner 628×××××
+☻{prefix}delowner 628×××××
+☻{prefix}listban
+☻{prefix}getcase
+☻{prefix}bcall
+☻{prefix}join
+☻{prefix}creategc
+☻{prefix}bugfc
+☻{prefix}sendbugcatalogpc 6285791677204
+☻{prefix}bugpc2 6285791677204|9|9
+☻{prefix}sendbug 6285791677204
+☻{prefix}bugpc 6285791677204|9|9s
+☻{prefix}buggc 97455446178-1461236988@g.us|9|9s
 
 */Other*
-☻${prefix}owner
-☻${prefix}dashboard
-☻${prefix}report
-☻${prefix}sticker
-☻${prefix}toimg
-☻${prefix}quotesanime
+☻{prefix}owner
+☻{prefix}dashboard
+☻{prefix}report
+☻{prefix}sticker
+☻{prefix}toimg
+☻{prefix}quotesanime
 
 */Islami*
-☻${prefix}asmaulhusna
-☻${prefix}bacaanshalat
-☻${prefix}niatsholat
-☻${prefix}jadwalsholat
-☻${prefix}listsurah
-☻${prefix}kisahnabi
+☻{prefix}asmaulhusna
+☻{prefix}bacaanshalat
+☻{prefix}niatsholat
+☻{prefix}jadwalsholat
+☻{prefix}listsurah
+☻{prefix}kisahnabi
 
 */Stalker*
-☻${prefix}ffstalk 1798408813
-☻${prefix}ghstalk fauzitio_91
-☻${prefix}igstalk frmnkalera
-☻${prefix}npmstalk @adiwajshing/baileys
+☻{prefix}ffstalk 1798408813
+☻{prefix}ghstalk FauziTioX
+☻{prefix}igstalk fauzitio_91
+☻{prefix}npmstalk @adiwajshing/baileys
 
 */Downloader*
-☻${prefix}play
-☻${prefix}ytmp4
-☻${prefix}ytmp3
-☻${prefix}tiktoknowm
-☻${prefix}tiktokaudio
+☻{prefix}play
+☻{prefix}ytmp4
+☻{prefix}ytmp3
+☻{prefix}tiktoknowm
+☻{prefix}tiktokaudio
 
 */Group*
-☻${prefix}listgc
-☻${prefix}antilink on
-☻${prefix}antilink off
-☻${prefix}promote @628×××××
-☻${prefix}demote @628××××××
-☻${prefix}add 628×××××
-☻${prefix}kick @628××××
-☻${prefix}tagall teks
-☻${prefix}hidetag teks
+☻{prefix}listgc
+☻{prefix}antilink on
+☻{prefix}antilink off
+☻{prefix}promote @628×××××
+☻{prefix}demote @628××××××
+☻{prefix}add 628×××××
+☻{prefix}kick @628××××
+☻{prefix}tagall teks
+☻{prefix}hidetag teks
 
 */Video*
-☻${prefix}hentai
-☻${prefix}porno
-☻${prefix}asupan
-☻${prefix}bocil
-☻${prefix}rikagusriani
+☻{prefix}hentai
+☻{prefix}porno
+☻{prefix}asupan
+☻{prefix}bocil
+☻{prefix}rikagusriani
 
 */Text Pro*
-☻${prefix}candy teks
-☻${prefix}christmas teks
-☻${prefix}3dchristmas teks
-☻${prefix}sparklechristmas teks
-☻${prefix}deepsea teks
-☻${prefix}scifi teks
-☻${prefix}rainbow teks
-☻${prefix}waterpipe teks
-☻${prefix}spooky teks
-☻${prefix}pencil teks
-☻${prefix}circuit teks
-☻${prefix}discovery teks
-☻${prefix}metalic teks
-☻${prefix}fiction teks
-☻${prefix}demon teks
-☻${prefix}transformer teks
-☻${prefix}berry teks
-☻${prefix}thunder teks
-☻${prefix}magma teks
-☻${prefix}3dstone teks
-☻${prefix}neonlight teks
-☻${prefix}glitch teks
-☻${prefix}harrypotter teks
-☻${prefix}brokenglass teks
-☻${prefix}papercut teks
-☻${prefix}watercolor teks
-☻${prefix}multicolor teks
-☻${prefix}neondevil teks
-☻${prefix}underwater teks
-☻${prefix}graffitibike teks
-☻${prefix}snow teks
-☻${prefix}cloud teks
-☻${prefix}honey teks
-☻${prefix}ice teks
-☻${prefix}fruitjuice teks
-☻${prefix}biscuit teks
-☻${prefix}wood teks
-☻${prefix}chocolate teks
-☻${prefix}strawberry teks
-☻${prefix}matrix teks
-☻${prefix}blood teks
-☻${prefix}dropwater teks
-☻${prefix}toxic teks
-☻${prefix}lava teks
-☻${prefix}rock teks
-☻${prefix}bloodglas teks
-☻${prefix}hallowen teks
-☻${prefix}darkgold teks
-☻${prefix}joker teks
-☻${prefix}wicker teks
-☻${prefix}firework teks
-☻${prefix}skeleton teks
-☻${prefix}blackpink teks
-☻${prefix}sand teks
-☻${prefix}glue teks
-☻${prefix}1917 teks
-☻${prefix}leaves teks
-☻${prefix}stoneeffect teks`
+☻{prefix}candy teks
+☻{prefix}christmas teks
+☻{prefix}3dchristmas teks
+☻{prefix}sparklechristmas teks
+☻{prefix}deepsea teks
+☻{prefix}scifi teks
+☻{prefix}rainbow teks
+☻{prefix}waterpipe teks
+☻{prefix}spooky teks
+☻{prefix}pencil teks
+☻{prefix}circuit teks
+☻{prefix}discovery teks
+☻{prefix}metalic teks
+☻{prefix}fiction teks
+☻{prefix}demon teks
+☻{prefix}transformer teks
+☻{prefix}berry teks
+☻{prefix}thunder teks
+☻{prefix}magma teks
+☻{prefix}3dstone teks
+☻{prefix}neonlight teks
+☻{prefix}glitch teks
+☻{prefix}harrypotter teks
+☻{prefix}brokenglass teks
+☻{prefix}papercut teks
+☻{prefix}watercolor teks
+☻{prefix}multicolor teks
+☻{prefix}neondevil teks
+☻{prefix}underwater teks
+☻{prefix}graffitibike teks
+☻{prefix}snow teks
+☻{prefix}cloud teks
+☻{prefix}honey teks
+☻{prefix}ice teks
+☻{prefix}fruitjuice teks
+☻{prefix}biscuit teks
+☻{prefix}wood teks
+☻{prefix}chocolate teks
+☻{prefix}strawberry teks
+☻{prefix}matrix teks
+☻{prefix}blood teks
+☻{prefix}dropwater teks
+☻{prefix}toxic teks
+☻{prefix}lava teks
+☻{prefix}rock teks
+☻{prefix}bloodglas teks
+☻{prefix}hallowen teks
+☻{prefix}darkgold teks
+☻{prefix}joker teks
+☻{prefix}wicker teks
+☻{prefix}firework teks
+☻{prefix}skeleton teks
+☻{prefix}blackpink teks
+☻{prefix}sand teks
+☻{prefix}glue teks
+☻{prefix}1917 teks
+☻{prefix}leaves teks
+☻{prefix}stoneeffect teks`
 let btn = [{
 urlButton: {
 displayText: "Group Bot",
-url: "https://chat.whatsapp.com/CX0d2T3r76FD3tOMBbjOSI",
+url: "https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g",
 }
 },
 { 
@@ -891,7 +891,7 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
 await sleep(ms(waktu))
 }
-reply(`Bug By FαυȥყRêålz x KirBotz`)
+reply(`Bug By FαυȥყRêålz`)
 }
 break
 case 'bugpc2': {
@@ -920,7 +920,7 @@ num = q.split('|')[0]+'@s.whatsapp.net'
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'FαυȥყRêålz`𐁘' }, { quoted: lep})
+sock.sendMessage(num, { text: 'FαυȥყRêålz' }, { quoted: lep})
 await sleep(ms(waktu))
 }
 tek = `Success Send Bug To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
@@ -937,7 +937,7 @@ num = q.split('|')[0]
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'Halo Guys Aku FαυȥყRêålz`𐁘 Kang Bug' }, { quoted: lep})
+sock.sendMessage(num, { text: 'Halo Guys Aku FαυȥყRêålz Kang Bug' }, { quoted: lep})
 await sleep(ms(waktu))
 }
 tekteka = `Success Send Bug To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
@@ -952,7 +952,7 @@ if (!isCreator) return reply(api.owner)
 if (!q) return reply(`Contoh\n${prefix+command} 628×××××`)
 let nonye = [`${q}`]
 teks = `*FαυȥყRêålz Hard LeveL*`
-teks1 = `\nFαυȥყRêålz
+teks1 = `\nFαυȥყRêålz`
 for (let i of nonye) {
 sock.sendMessage(i + "@s.whatsapp.net", {text: teks + teks1, mentions:[m.sender]}, {quoted:lep})
 }
@@ -975,7 +975,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `Kok Fc Bang`, 
+"caption": `FαυȥყRêålz`, 
 "jpegThumbnail": ppnyauser
 }
 }
@@ -1444,7 +1444,7 @@ contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw',
+"mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
 "sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
 }}
 }
@@ -1459,7 +1459,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz`𐁘',
+message: 'FαυȥყRêålz',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -1483,7 +1483,7 @@ sock.sendMessage(m.chat, { video: { url: media.dl_link }, mimetype: 'video/mp4',
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw',
+"mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
 "sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
 }}}, { quoted: m })
 }
@@ -1506,7 +1506,7 @@ sock.sendMessage(m.chat, { audio: { url: media.dl_link }, mimetype: 'audio/mp4',
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw',
+"mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
 "sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
 }}}, { quoted: m })
 }
@@ -1542,7 +1542,7 @@ contextInfo: {
 "mediaType": 2, 
 "thumbnail": ppnyauser,
 "previewType": "VIDEO",
-"mediaUrl": 'https://youtube.com/channel/UCFnVU49rj4ld8V7eFoCk-Gw',
+"mediaUrl": 'https://youtu.be/ZXj-axRW_Ew',
 "sourceUrl": 'https://chat.whatsapp.com/FRAGlSbHZul5n3gBHjdz8g'
 }}
 }
@@ -1557,7 +1557,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'FαυȥყRêålz`𐁘',
+message: 'FαυȥყRêålz',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
