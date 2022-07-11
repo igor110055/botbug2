@@ -378,7 +378,7 @@ async function replyReg(teks) {
 const buttonsDefault = [{ quickReplyButton: { displayText: ` ꪶ VERIFY ꫂ `, id: `${prefix}verify` } }]                 
 const buttonMessage = { 
 text: teks, 
-footer: "Creator FαυȥყRêålz`𐁘 ꪶ𖣂ꫂ", 
+footer: "Creator Fauzi ꪶ𖣂ꫂ", 
 templateButtons: buttonsDefault, 
 image: {url: ppnyauser}                                   
 }
