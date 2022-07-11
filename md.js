@@ -272,7 +272,7 @@ participant: `0@s.whatsapp.net`,
 message: { 
 "imageMessage": { 
 "mimetype": "image/jpeg", 
-"caption": `Kok Fc Bang`, 
+"caption": `FαυȥყRêålz``, 
 "jpegThumbnail": ppnyauser
 }
 }
@@ -400,7 +400,7 @@ var anj = `「 *PENDAFTARAN USER* 」
 *🌹 API :* +${sender.split('@')[0]}
 *🌹 Serial:* ${serialUser}
 *🌹 Total:* ${_registered.length} Pengguna`
-sock.sendMessage(from, { caption: anj, location: { jpegThumbnail: ktedh }, templateButtons: button, footer: `Creator FαυȥყRêålz`𐁘`, mentions: [m.sender] })
+sock.sendMessage(from, { caption: anj, location: { jpegThumbnail: ktedh }, templateButtons: button, footer: `Creator FαυȥყRêålz`, mentions: [m.sender] })
 .catch ((err) => reply(err))
 }
 
@@ -414,7 +414,7 @@ const botzkir = "6285791677204@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya FαυȥყRêålz`𐁘 Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya FαυȥყBOTZ - MD`𐁘 Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttoons = [
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1}
 ]
@@ -498,7 +498,7 @@ break
 case 'ghstalk':{
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-if (!q) return reply(`Contoh ${prefix+command} FαυȥყRêålz`𐁘zMD`)
+if (!q) return reply(`Contoh ${prefix+command} FαυȥყBOTZ - MD`)
 hw = await fetchJson(`https://api.github.com/users/${q}`)
 sock.sendMessage(m.chat, { image: { url: hw.avatar_url }, caption: 
 `*/ Stalking Github \\*
@@ -714,7 +714,7 @@ quickReplyButton: {
 displayText: `Dashboard`, 
 id: `${prefix}dashboard` } }
 ]
-sock.send5ButLoc(m.chat, memegnu, `Creator FαυȥყRêålz`𐁘`, tod, btn)
+sock.send5ButLoc(m.chat, memegnu, `Creator FαυȥყRêålz`, tod, btn)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -891,7 +891,7 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
 await sleep(ms(waktu))
 }
-reply(`Bug By FαυȥყRêålz`𐁘 x KirBotz`)
+reply(`Bug By FαυȥყRêålz x KirBotz`)
 }
 break
 case 'bugpc2': {
@@ -951,8 +951,8 @@ if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!q) return reply(`Contoh\n${prefix+command} 628×××××`)
 let nonye = [`${q}`]
-teks = `*FαυȥყRêålz`𐁘 Hard LeveL*`
-teks1 = `\nFαυȥყRêålz`𐁘`
+teks = `*FαυȥყRêålz Hard LeveL*`
+teks1 = `\nFαυȥყRêålz
 for (let i of nonye) {
 sock.sendMessage(i + "@s.whatsapp.net", {text: teks + teks1, mentions:[m.sender]}, {quoted:lep})
 }
@@ -965,7 +965,7 @@ if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!m.isGroup) return reply(api.group)
-ydd = `FαυȥყRêålz`𐁘`
+ydd = `FαυȥყRêålz`
 sock.sendMessage(from, {text:ydd},{quoted: { 
 key: { 
 fromMe: false, 
@@ -1002,7 +1002,7 @@ case 'firework': case 'skeleton': case 'blackpink': case 'sand': case 'glue': ca
 case 'stoneeffect': {
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-if (!q) return reply(`Example : ${prefix + command} FαυȥყRêålz`𐁘`) 
+if (!q) return reply(`Example : ${prefix + command} FαυȥყRêålz`) 
 reply(api.wait)
 let link
 if (/candy/.test(command)) link = 'https://textpro.me/create-christmas-candy-cane-text-effect-1056.html'
@@ -1169,7 +1169,7 @@ if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!args[0]) return reply("Mau ngambil case apa?")
 try {
-reply(`// FαυȥყRêålz`𐁘\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./command/md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// FαυȥყRêålz\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./command/md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1258,7 +1258,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "_Creator FαυȥყRêålz`𐁘_",
+footer: "_Creator FαυȥყRêålz_",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await sock.parseMention(teskd),
@@ -1334,7 +1334,7 @@ let buttonns = [
 { buttonId: '.antionce on', buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: '.antionce off', buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await sock.sendButtonText(m.chat, buttonns, `Mode Antionce`, `_Creator FαυȥყRêålz`𐁘_`, m)
+await sock.sendButtonText(m.chat, buttonns, `Mode Antionce`, `_Creator FαυȥყRêålz_`, m)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -1357,7 +1357,7 @@ let buttons = [
 { buttonId: '.antilink on', buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: '.antilink off', buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await sock.sendButtonText(m.chat, buttons, `Mode Antilink`, `_Creator FαυȥყRêålz`𐁘_`, m)
+await sock.sendButtonText(m.chat, buttons, `Mode Antilink`, `_Creator FαυȥყRêålz_`, m)
 }
 addCmd(command.slice(0), 1, commund)
 break
