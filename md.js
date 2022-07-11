@@ -289,7 +289,7 @@ return Math.floor(Math.random() * min) + 1
 }
 
 function monospace(string) {
-return '```' + string + '```'
+return 
 }
 
 async function post(url, formdata = {}, cookies) {
