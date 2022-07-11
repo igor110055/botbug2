@@ -4,9 +4,9 @@ const { chalk, fs, proces } = modul;
 global.ownerNumber = ["6285791677204@s.whatsapp.net"]
 global.namabotnya = 'FauzyBOT - MD'
 global.namaownernya = 'Fauzy-XD'
-global.packname = '\n\n\n\n\n\n\n\n\n\n© KirBotz||+62🇲🇨\nI`m From Indonesia\n\n\n\n\n\n\n\n\n\n'
-global.author = '\n\n\n\n\n\n\n\n\n\nWa : 0877-0504-8235\nYT : KirBotz×\n\n\n\n\n\n\n\n\n\n'
-global.sessionName = 'kirbotz'
+global.packname = '\n\n\n\n\n\n\n\n\n\n© FαυȥყRêålz`𐁘||+62🇲🇨\nI`m From Indonesia\n\n\n\n\n\n\n\n\n\n'
+global.author = '\n\n\n\n\n\n\n\n\n\nWa : 0857-9167-7204\nYT : FαυȥყRêålz`𐁘\n\n\n\n\n\n\n\n\n\n'
+global.sessionName = 'session'
 global.lolkey = 'Atakbotz'
 global.dapkey = 'Kirbotz123'
 global.kirkey = 'KirBotz'
@@ -30,7 +30,7 @@ global.api =
     error: '```Mungkin Lagi Error Kak Harap Lapor Owner Biar Langsung Di Benerin🙏```',
     wait: '```Waittt...```',
     ban: '_Maaf Kamu Sudah Di Ban Silahkan Chat Owner Di Bawah Untuk Membuka Nya_',
-    verif: '_Maaf Kak Kakak Belum Jadi User KirBotz Silahkan Register Terlebih Dahulu Click Di Bawah_'
+    verif: '_Maaf Kak Kakak Belum Jadi User FauzyBOTZ - MD Silahkan Register Terlebih Dahulu Click Di Bawah_'
 }
 
 global.thumb = fs.readFileSync('./command/Image/thumb.jpg')
